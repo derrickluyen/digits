@@ -32,9 +32,8 @@ class AddNote extends React.Component {
 
   /** On submit, insert the data. */
   submit(data) {
-    const { firstName, lastName, address, image, description } = data;
-    const owner = Meteor.user().username;
-    Notes.insert({ firstName, lastName, address, image, description, owner }, this.insertCallback);
+    const { note, owner, contactId, createdAt } = data;
+    Notes.insert({ note, owner, contactId, createdAt }, this.insertCallback);
   }
 
   /** Render the form. Use Uniforms: https://github.com/vazco/uniforms */
@@ -57,5 +56,6 @@ class AddNote extends React.Component {
 AddNote.propTypes = {
   owner: PropTypes.string.isRequired,
   contactId: PropTypes.string.isRequired,
-}
+};
+
 export default AddNote;

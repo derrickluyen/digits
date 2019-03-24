@@ -1,5 +1,4 @@
 import { Meteor } from 'meteor/meteor';
-import { Roles } from 'meteor/alanning:roles';
 import { Notes } from '../../api/note/note';
 
 /** This subscription publishes only the documents associated with the logged in user */
