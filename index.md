@@ -2,11 +2,11 @@
 <img src="doc/landing.png">
 
 <h3>Installation Instructions</h3>
-1. Fork this digits Github repository and clone into workspace. 
-2. cd into the app directory and run the following command:  
-$ meteor npm install
-3. Now you can start up the program by running:     
-$ meteor npm run start
+1. Fork this digits Github repository and clone into workspace. \n
+2. cd into the app directory and run the following command:  \n
+$ meteor npm install \n
+3. Now you can start up the program by running: \n    
+$ meteor npm run start \n
 4. You can now view the site at http://localhost:3000/
 
 <h3>Landing Page</h3>
